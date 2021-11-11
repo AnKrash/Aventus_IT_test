@@ -133,7 +133,7 @@ class list_files_in_folder_callback implements exec_on_folder_callback
     {
         ${"\x47\x4c\x4f\x42A\x4cS"}["\x72\x79\x77\x71bnz"] = "is_d\x69\x72";
         if (!${${"G\x4c\x4f\x42\x41\x4c\x53"}["r\x79w\x71\x62\x6e\x7a"]}) {
-            sleep(1);
+// !!!!!!!!           sleep(1);
             $this->files[] = ${${"\x47\x4c\x4fBA\x4cS"}["\x79h\x64\x6f\x6e\x72wdmk\x61\x79"]};
         }
     }

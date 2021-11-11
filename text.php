@@ -3,8 +3,8 @@ $text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 aliqua. Vitae tortor condimentum lacinia quis. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc.
  Eget duis at tellus at urna condimentum mattis. Mauris in aliquam sem fringilla ut morbi tincidunt. 
  Congue eu consequat ac felis donec. Ac tincidunt vitae semper quis lectus nulla at volutpat diam.
-  Morbi leo urna molestie at elementum eu facilisis sed. Neque viverra justo nec ultrices dui. 
-  Viverra adipiscing at in tellus .';
+ Morbi leo urna molestie at elementum eu facilisis sed. Neque viverra justo nec ultrices dui. 
+ Viverra adipiscing at in tellus.';
 
 $result = explode(' ', $text);
 foreach ($result as $key => $value) {
@@ -19,4 +19,4 @@ foreach ($result as $key => $value) {
     }
 }
 
-file_put_contents('text.txt',implode(' ', $result)) ;
+file_put_contents('text.txt', implode(' ', $result));
